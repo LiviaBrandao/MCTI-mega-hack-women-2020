@@ -1,0 +1,59 @@
+
+nav{
+	min-height: 80px;
+	
+}
+.nav-item a:hover{
+	background-color:rgb(179, 159, 140) ;
+	color: white;
+	border-radius: 10px;
+}
+.nav-item a{
+	color: #8B1A1A;
+}
+.principal{
+	background-image: url('img/natureza1.jpg');
+	height: 600px
+
+}
+h1{
+	text-align: center;
+}
+#menu ul{
+	margin: 0;
+}
+#menu ul li{
+	display: inline;
+	list-style: none;
+}
+#menu ul li a{
+	text-decoration: none;
+display: inline-block;
+list-style: none;
+
+}
+#menu ul li a:hover{
+	color: white ;
+}
+
+
+/* teste borda card */
+
+.card-group {
+	border-radius: 450px 450px 450px 450px;
+}
+
+.fa-star,
+.fa-star-half{
+    color: gold;
+    padding: 3% 0%;
+}
+
+.nav-item .dropdown a:hover{
+	background-color:#EE7600 ;
+	color: white;
+	border-radius: 10px;
+}
+.nav-item .dropdown a{
+	color: #8B1A1A;
+}

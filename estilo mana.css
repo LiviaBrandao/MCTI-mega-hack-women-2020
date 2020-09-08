@@ -1,0 +1,317 @@
+/* menu */
+header nav{
+    background: #551A8B;
+    width: 100%;
+}
+ul li{
+    list-style: none;
+    display: inline;
+
+}
+ul{
+    margin: 0;
+}
+#menu ul li a{
+    text-decoration: none;
+display: inline-block;
+list-style: none;
+color: white;
+font-size: 20px;
+}
+
+
+
+footer{
+    background: #551A8B;
+    text-align: center;
+    color: white;
+    margin: 1000px 0 0 0;
+    height: 40px;
+    width: 100%;
+
+/* home imagem */
+}
+div.mana img{
+    margin: 60px 0 0 0;
+}
+.mana h1{
+    color: white;
+    font-size: 25px;
+}
+.mana{
+
+    text-align: center;
+    margin: 10px;
+    
+
+}
+
+@font-face{
+    font-family: Redressed;
+    src: url("Redressed.ttf");
+}
+*{
+    font-family: Redressed;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+} 
+/* selo  */
+body {
+    background: linear-gradient(245deg, rgba(244,153,171,1) 35%, rgba(219,182,189,1) 100%);
+}
+
+.imagem-selo {
+    position: absolute;
+    width: 444.6px;
+    height: 400px;
+    left: 60px;
+    top: 185px;
+}
+
+.div-text-mana {
+    position: absolute;
+    width: 750px;
+    height: 580px;
+    left: 555px;
+    top: 200px;
+
+    background: rgba(270, 255, 255, 0.3);
+    border-radius: 20px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size:   22px;
+    line-height: 40px;
+    text-align: left;
+
+    color: #350D78;
+}
+
+.div-text-mana a {
+    position: absolute;
+    width: 690px;
+    height: 460px;  
+    padding-left: 8%;
+    padding-top: 3%;
+}
+
+.botao-saiba-mais{
+    font-size: 30px;
+    border-radius: 15px;
+
+
+}
+
+.btn-part{
+    padding-top: 53%;
+    padding-left: 68%;
+    margin: 100px 0 0 0;
+
+}
+
+/* Parceiros */
+
+#nav-menu ul li a{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    font-size: 22px;
+}
+
+#nav-menu {
+    width: 100%;
+    height: 100%;
+}
+
+/* tabs */
+
+.tabContainer{
+    width: 900px;
+    height: 60px;
+    margin-left: 45%;
+    margin-right: 0px;
+    margin: -10px 0 0 700px;
+
+    position: absolute;
+
+    left: -100px;
+    top:  165px;
+}
+.tabContainer .buttonContainer{
+    width: 100%
+}
+.tabContainer .buttonContainer button { 
+    width: 30%;
+    height: 100%;
+    float: left;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #551A8B;
+    border: 2px solid #472585;
+}
+
+.tabContainer .buttonContainer button:hover {
+    background-color: rgba(219,182,189,1);
+}
+.tabContainer .tabPanel {
+    width: 90%;
+    height: 500px;
+    background: #FFFFFF;
+    color:#472585;
+    text-align: left;
+    font-size: 22px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: inset 4px 0px 8px rgba(0, 0, 0, 0.25);
+    border: 2px solid #472585;
+}
+
+.tabPanel p {
+    text-align: left;
+    width: 760px;
+    margin-left: 50px;
+    top: 226px;
+}
+
+.tabPanel a {
+    text-align: left;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 35px;
+    width: 10px;
+    margin-left: 50px;
+}
+
+.trybe-logo{
+
+  position: absolute;
+  width:  300px;
+  height: 300px;
+  left:   288px;
+  top:    135px;
+  margin: 20px 0 0 0;
+
+  background: url(image.png);
+  border-radius: 10px;
+}
+
+.parte-text{
+    position: absolute;
+    width: 216px;
+    height: 46px;
+    left: 330px;
+    top: 444px;
+    margin: 20px 0 0 0;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #472585;
+}
+
+.parte-text p {
+    
+    position: absolute;
+    width:  128px;
+    height: 20px;
+    left:   45px;
+    top:    50px;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #CC348E;
+}
+
+.parte-text a:hover {
+
+    color: #CC348E;
+}
+
+.botaoManasApoio{
+
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background: #472585;
+    border-radius: 20px;
+    border: transparent;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    top: 80px;
+    left: -40px;
+}
+
+.botaoPontos{
+
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background: #472585;
+    border-radius: 20px;
+    border: transparent;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    top: 140px;
+    left: -40px;
+}
+
+.botaoPontos:hover {
+    background-color: rgba(219,182,189,1);
+}
+
+.botaoMeusPontos{
+
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    background: #472585;
+    border-radius: 20px;
+    border: transparent;
+
+    font-family: Redressed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+
+    top: 200px;
+    left: -40px;
+}
+
+
+.div-buttons button:hover {
+    background-color: rgba(219,182,189,1);
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo mana.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title></title>
+
+    <style>
+        #menu ul li a:hover{
+            color: black;
+		}  
+		
+	</style>
+	<script>
+		function onSaida(){
+			this.setAttribute("src", "img/boramana2v2.png")
+		}
+		function outEntrada(){
+			this.setAttribute("src", "img/Group_24_1.png")
+		}
+		function onConheca(){
+			this.setAttribute("src", "img/boramana1v4.png")
+		}
+		function outBoraMana(){
+			this.setAttribute("src", "img/boramana1.jpg")
+		}
+		function onSelo(){
+			this.setAttribute("src", "img/boramana3v1.png")
+		}
+		function outWomanTech(){
+			this.setAttribute("src", "img/boramana3v0.png")
+		}
+		function onRede(){
+			this.setAttribute("src", "img/boramana4v1.png")
+		}
+		function outMana(){
+			this.setAttribute("src", "img/boramana4v0")
+		}
+		function onApoia(){
+			this.setAttribute("src", "img/boramana5v1.png")
+		}
+		function outParceiro(){
+			this.setAttribute("src", "img/boramana5v0.png")
+		}
+	</script>
+
+	<style>
+		h1{
+			background-color:  #551A8B;
+		}
+	</style>
+</head>
+<body style="background: pink;">
+
+   	<header>
+			<nav class="navbar navbar-expand-lg  navbar-light">
+					<div class="container-fluid">
+				<a href="#" class="navbar-brand"><img src="img/Group_13.png" style="height: 60px;"></a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+				<img src="img/logos e itens/tres riscos.png" style="height: 15px">
+				</button>
+		
+		<!-- Links -->
+				<div id="menu"class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-md-auto">
+
+                  	<li class="nav-item">
+                		<a class="nav-link" style="margin: 25px; "href="index.php" class="main" >Home</a>
+                	</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" style="margin: 25px; " href="login.php" class="main" >Área da Mana</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" style="margin: 25px; " href="Quem_somos.php" class="main" >Rede das Manas</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" style="margin: 25px; " href="Quem_somos.php" class="main" >Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link" style="margin: 25px; " href="selo.html" class="main" >Selo</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" style="margin: 25px; " href="Quem_somos.php" class="main" >Ajuda</a>
+					</li>
+					</ul>
+				</div>
+					</div>
+			</nav>
+			
+	
+	</header>
+	
+			<a href="#">	
+				<img src="img/boramana1.jpg" alt="" style="position: absolute;
+				width: 380px;
+				height: 250px;
+				left: 75px;
+				top: 137px;"
+				
+				onmouseover="onConheca.call(this)" onmouseout="outBoraMana.call(this)">
+	
+				<h1 style="position: absolute;
+				width: 380px;
+				height: 40px;
+				left: 75px;
+				top: 347px;
+				font-size: 25px;
+				color: white;
+				text-align: center;
+				">Conheça o Bora, Mana</h1>
+			</a>
+				<a href="login.php">
+				
+			
+				<img src="img/Group_24_1.png" alt="" style="position: absolute;
+				width: 480px;
+				height: 755px;
+				left: 480px;
+				top: 137px;"
+				
+				onmouseover="onSaida.call(this)" onmouseout="outEntrada.call(this)">
+				
+				<h1 style="position: absolute;
+				width: 480px;
+				height: 40px;
+				left: 480px;
+				top: 852px;
+				color: white;
+				font-size: 25px;
+				text-align: center;
+				">Área da Mana</h1>
+				
+				</a>
+		
+		
+				<a href="selo.html">
+
+					<img src="img/boramana3v0.png" alt="" style="position: absolute;
+					width: 380px;
+					height: 400px;
+					left: 985px;
+					top: 137px;"
+					
+					onmouseover="onSelo.call(this)" onmouseout="outWomanTech.call(this)">
+	
+					<h1 style="position: absolute;
+					width: 380px;
+					height: 40px;
+					left: 985px;
+					top: 497px;
+					color: white;
+					font-size: 25px;
+					text-align: center;
+					">Selo Women Tech</h1>
+
+				</a>
+				
+				<a href="#">
+	
+					<img src="img/boramana4v0" alt="" style="position: absolute;
+					width: 380px;
+					height: 480px;
+					left: 75px;
+					top: 412px;
+					"
+					onmouseover="onRede.call(this)" onmouseout="outMana.call(this)"
+					>
+					<h1 style="position: absolute;
+					width: 380px;
+					height: 40px;
+					left: 75px;
+					top: 852px;
+					color: white;
+					font-size: 25px;
+					text-align: center;
+					">Rede das Manas</h1>
+				</a>
+			
+				<a href="parceiros.html">
+	
+					<img src="img/boramana5v0.png" alt="" style="position: absolute;
+					width: 380px;
+					height: 330px;
+					left: 985px;
+					top: 562px;"
+					
+					onmouseover="onApoia.call(this)" onmouseout="outParceiro.call(this)"
+					
+					>
+					<h1 style="position: absolute;
+					width: 380px;
+					height: 40px;
+					left: 985px;
+					top: 852px;
+					color: white;
+					font-size: 25px;
+					text-align: center;
+					">Parceiros</h1>
+				</a>	
+
+    <footer>
+        &copy Bora, mana
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			<script src="https://kit.fontawesome.com/cde50c6c3d.js" crossorigin="anonymous"></script>
+
+    </footer>
+</body>
+</html>
